@@ -9,7 +9,7 @@ export default function AdminNavBar() {
     const [notifications, setNotifications] = useState([]);
     const [showNotifications, setShowNotifications] = useState(false);
 
-    const ADMIN_EMAIL = "ksuba3210@gmail.com";
+    const ADMIN_EMAIL = "centeral.gov.coop@gmail.com";
     const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
     const getInitials = (name) => {

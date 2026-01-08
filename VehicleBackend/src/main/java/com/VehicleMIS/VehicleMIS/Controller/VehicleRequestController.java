@@ -130,7 +130,7 @@ public class VehicleRequestController {
                 requestRepo.save(req);
 
                 notificationService.createNotification(
-                        "ksuba3210@gmail.com",
+                        "centeral.gov.coop@gmail.com",
                         "Employee requested cancellation for vehicle request: " + req.getRequestId()
                 );
                 smsService.sendSms(
@@ -284,7 +284,7 @@ public class VehicleRequestController {
 
         emailService.sendApprovalEmail(request.getRequestId());
         notificationService.createNotification(
-                "enukaenubro@gmail.com",
+                "centeral.gov.coop@gmail.com",
                 "New vehicle request (" + request.getRequestId() + ") requires your approval."
         );
 
@@ -317,7 +317,7 @@ public class VehicleRequestController {
         request.setOfficerApprovedAt(LocalDateTime.now());
         requestRepo.save(request);
 
-        String adminEmail = "ksuba3210@gmail.com";
+        String adminEmail = "centeral.gov.coop@gmail.com";
         String adminPhone = "94714341777";
         String message = "Request " + id + " has been APPROVED by Approval Officer.";
 

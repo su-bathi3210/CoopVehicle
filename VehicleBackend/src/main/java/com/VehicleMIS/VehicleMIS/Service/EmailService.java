@@ -16,10 +16,10 @@ public class EmailService {
     @Autowired(required = false)
     private JavaMailSender mailSender;
 
-    @Value("${approver.email:enukaenubro@gmail.com}")
+    @Value("${approver.email:centeral.gov.coop@gmail.com}")
     private String APPROVER_EMAIL;
 
-    @Value("${admin.email:ksuba3210@gmail.com}")
+    @Value("${admin.email:centeral.gov.coop@gmail.com}")
     private String ADMIN_EMAIL;
 
     public void sendApprovalEmail(String requestId) {
