@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/notifications")
-@CrossOrigin(origins = " http://194.233.84.108:8083/")
+@CrossOrigin(origins = "http://194.233.84.108:8083")
 public class NotificationController {
 
     @Autowired

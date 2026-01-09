@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/vehicle-requests")
-@CrossOrigin(origins = " http://194.233.84.108:8083/")
+@CrossOrigin(origins = "http://194.233.84.108:8083")
 public class VehicleRequestController {
 
     @Autowired

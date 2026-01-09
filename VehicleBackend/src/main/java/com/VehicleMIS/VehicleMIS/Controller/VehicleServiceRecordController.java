@@ -11,7 +11,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/vehicle-services")
-@CrossOrigin(origins = " http://194.233.84.108:8083/")
+@CrossOrigin(origins = "http://194.233.84.108:8083")
 public class VehicleServiceRecordController {
 
     @Autowired

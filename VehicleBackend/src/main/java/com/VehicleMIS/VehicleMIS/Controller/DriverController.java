@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/drivers")
-@CrossOrigin(origins = " http://194.233.84.108:8083/")
+@CrossOrigin(origins = "http://194.233.84.108:8083")
 public class DriverController {
 
     @Autowired

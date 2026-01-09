@@ -12,7 +12,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = " http://194.233.84.108:8083/")
+@CrossOrigin(origins = " http://194.233.84.108:8083")
 public class AuthController {
 
     @Autowired
